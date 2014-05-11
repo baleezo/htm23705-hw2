@@ -67,7 +67,7 @@ function load(){
     li = $(tmpl);
     li.appendTo(mainUl).find('span').text(arr[i].text);
     if(arr[i].isDone){
-      li.addClasss('is-done');
+      li.addClass('is-done');
     }
   }
 }
